@@ -1,33 +1,63 @@
+/* Mobile First - Estilos base para móvil */
 .task-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .task-list-empty {
   background: #ffffff;
   border-radius: 12px;
-  padding: 3rem;
+  padding: 2rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .task-list-empty p {
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #718096;
   margin: 0;
 }
 
-@media (max-width: 768px) {
+.pagination-info {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.pagination-info p {
+  color: #718096;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+/* Tablet - 481px y superior */
+@media (min-width: 481px) {
   .task-list {
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .task-list-empty {
+    padding: 3rem;
+  }
+
+  .task-list-empty p {
+    font-size: 1.125rem;
   }
 }
 
-@media (max-width: 480px) {
+/* Desktop - 768px y superior */
+@media (min-width: 768px) {
   .task-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+/* Large Desktop - 1024px y superior */
+@media (min-width: 1024px) {
+  .task-list {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 

@@ -51,6 +51,7 @@ const Dashboard = () => {
           tasks={filteredTasks} 
           users={users} 
           onTaskClick={handleTaskClick}
+          filters={filters}
         />
       </div>
 
