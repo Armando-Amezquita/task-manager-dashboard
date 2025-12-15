@@ -24,7 +24,7 @@ La aplicación consume datos de [JSONPlaceholder](https://jsonplaceholder.typico
 
 1. Clona el repositorio:
 ```bash
-git clone <url-del-repositorio>
+git clone https://github.com/Armando-Amezquita/task-manager-dashboard.git
 cd task-manager-dashboard
 ```
 
@@ -160,7 +160,7 @@ Muestra métricas importantes:
 - **Loading Spinner**: Animación mientras se cargan los datos
 - **Manejo de Errores**: Mensaje amigable con opción de reintentar
 
-## 🎨 Decisiones Técnicas Importantes
+## Decisiones Técnicas Importantes
 
 ### 1. Custom Hooks
 
@@ -223,17 +223,6 @@ La aplicación está completamente optimizada para:
 ✅ Custom hooks para lógica reutilizable  
 ✅ Componentes modulares y reutilizables  
 
-## 🔮 Posibles Mejoras Futuras
-
-- [ ] Persistencia de filtros en localStorage
-- [ ] Modo oscuro/claro
-- [ ] Paginación para grandes volúmenes de datos
-- [ ] Ordenamiento de tareas (por fecha, estado, usuario)
-- [ ] Animaciones de transición más suaves
-- [ ] Tests unitarios y de integración
-- [ ] Internacionalización (i18n)
-- [ ] PWA (Progressive Web App)
-
 ## 📝 Notas Adicionales
 
 - La aplicación consume datos de JSONPlaceholder, una API de prueba
@@ -245,7 +234,3 @@ La aplicación está completamente optimizada para:
 
 Desarrollado como proyecto de demostración de habilidades en React y desarrollo frontend moderno.
 
----
-
-**Versión**: 1.0.0  
-**Última actualización**: 2024
